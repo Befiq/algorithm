@@ -1,0 +1,15 @@
+def add(a, b):
+    return a + b
+
+def power(a, n=2):
+    return a ** n
+
+def sum_all(*args):
+    total = 0
+    for value in args:
+        total += value
+    return total
+
+
+a = int(input("Введите число"))
+print(add,power,sum_all)
